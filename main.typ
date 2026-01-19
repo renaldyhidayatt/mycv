@@ -1,60 +1,146 @@
-#import "template.typ": *
-
-#show: project.with(
-  title: "Renaldy Hidayat Resume",
-  authors: (
-    "Renaldy Hidayat",
-  ),
+#set page(
+  paper: "a4",
+  margin: (x: 0.6in, y: 0.6in),
 )
 
+#set text(
+  font: "New Computer Modern",
+  size: 10.5pt,
+)
+
+#set par(justify: true)
+
 #align(center)[
-  #text(size: 14pt)[*Renaldy Hidayat*] \
-  Email: #link("mailto:renaldyhidayatt@gmail.com")[renaldyhidayatt\@gmail.com] | Phone Number: +628889244905 \
-  LinkedIn: #link("www.linkedin.com/in/renaldyhidayatt")[linkedin.com/in/renaldyhidayatt] | GitHub: #link("https://github.com/renaldyhidayatt")[github.com/renaldyhidayatt]
-]
+  #text(size: 20pt, weight: "bold")[RENALDY HIDAYAT]
 
-== INTRODUCTION
-I'm a Computer Science graduate from Nusa Mandiri University, passionate about programming and driven by endless opportunities for learning. Exploring new languages, leveraging frameworks, and applying technology innovatively excites me. Staying updated with the latest tech trends and integrating them into my work is a priority. My passion extends to transforming hobbies into meaningful projects, merging creativity with technical expertise.
+  #text(size: 11pt, weight: "semibold")[Backend Software Engineer]
 
+  #v(0.3em)
 
-== EDUCATION
-#pad(bottom: 4pt)[
-  #box(height: 41pt)[
-    #columns(2, gutter: 11pt)[
-      *Nusa Mandiri Universitas* \
-      Bachelor of Computer Science \
-      GPA: 3.72
-      #align(right)[2020 - 2024]
-    ]
-  ]
-]
-#box(height: 41pt)[
-  #columns(2, gutter: 11pt)[
-    *SMK Travina Prima* \
-    Networking Engineer
-    #align(right)[2017 - 2019]
+  #text(size: 9.5pt)[
+    #link("mailto:renaldyhidayatt@gmail.com")[renaldyhidayatt\@gmail.com] |
+    +62 888 9244 905 |
+
+    #link("https://renaldyhidayatt.github.io")[renaldyhidayatt.github.io] \
+
+    #link("https://linkedin.com/in/renaldyhidayatt")[linkedin.com/in/renaldyhidayatt] |
+    #link("https://github.com/renaldyhidayatt")[github.com/renaldyhidayatt]
   ]
 ]
 
-== TECHNICAL SKILLS
-#box(height: 60pt)[
-  #columns(2)[
-    *Programming Languages*: Python, Golang, Java, PHP, TypeScript, JavaScript \
-    *Back end*: Django, FastAPI, Laravel, Nest.js, Express.js, Echo, Fiber, Chi, Spring Boot \
-    *Messaging & Communication*: NATS, gRPC, RabbitMQ, Kafka \
-    *Database*: PostgreSQL, MySQL, SQLite, Redis, MongoDB \
-    *DevOps*: Linux, Docker, GitHub Actions, NGINX
-  ]
-]
-== FEATURED PORTFOLIO
-  - #link("https://renaldyhidayatt.github.io/#/portfolio/monolith-ecommerce")[Ecommerce Platform] - Payment gateway using Echo, gRPC, SQLC, PostgreSQL, Prometheus, Opentelemetry, Zap, Goose, Zookeeper, Nginx, Jaeger, Grafana, Redis, Docker, Docker Compose and Kubernetes **[On Progress]**.
-  - #link("https://renaldyhidayatt.github.io/#/portfolio/monolith-point-of-sale")[Point Of Sale Platform] - Payment gateway using Echo, gRPC, SQLC, PostgreSQL, Prometheus, Opentelemetry, Zap, Goose, Zookeeper, Nginx, Jaeger, Grafana, Redis, Docker, Docker Compose and Kubernetes **[On Progress]**.
-  - #link("https://renaldyhidayatt.github.io/#/portfolio/monorepo-payment-gateway-axum")[Monorepo Payment Gateway] - Payment gateway using Axum, gRPC, SeaQuery, Sqlx, PostgreSQL, Prometheus, Opentelemetry, Jaeger, Grafana, Redis, Docker, and Docker Compose **[Finished]**.
-  - #link("https://renaldyhidayatt.github.io/#/portfolio/sistem-rekomendasi-ecommerce")[Django-React Recommendation Product] - An eCommerce system featuring a recommendation engine using sentiment analysis, built with Django, PostgreSQL, and React.js **[Finished]**.
-  - #link("https://renaldyhidayatt.github.io/#/portfolio/prodigio-erp-laravel")[Prodigio ERP] - ERP system for the construction industry, built with React, Ant Design, Tauri, Laravel, and PHP to optimize workflows **[Finished]**.
-#link("https://renaldyhidayatt.github.io/#/portfolio")[See my other portfolios here »]
+#v(0.5em)
+#line(length: 100%, stroke: 0.5pt)
 
-== CERTIFICATIONS
-- *CCNA: Introduction to Networks* - Universitas Nusa Mandiri, 20 Agustus 2022 \
-- *CCNA: Switching, Routing, and Wireless Essentials* - Universitas Nusa Mandiri, 20 January 2023 \
-- *Orbit Kampus - Artificial Intelligence 4 Jobs * - Orbit Future Academy (MSIB 5), 14 Agustus 2023 \
+#v(0.8em)
+#text(size: 12pt, weight: "bold")[ABOUT]
+#line(length: 100%, stroke: 0.5pt)
+#v(0.4em)
+
+Backend Software Engineer specializing in Golang and Rust with hands-on experience
+building production-grade backend systems and distributed architectures.
+Strong focus on payment systems, e-commerce platforms, and ERP backends,
+with observability treated as a first-class concern.
+Experienced in cloud-native development, performance-oriented system design,
+and writing clean, maintainable, and testable code.
+
+#v(0.8em)
+#text(size: 12pt, weight: "bold")[ENGINEERING HIGHLIGHTS]
+#line(length: 100%, stroke: 0.5pt)
+#v(0.4em)
+
+- Top 1% developer globally (500K+ developers) based on WakaTime 2025 coding activity
+- 1,488+ hours coded in 2025 (~5h 54m daily average)
+- Primary development environment: Linux + VS Code
+- Strong emphasis on system reliability, observability, and scalability
+
+#v(0.8em)
+#text(size: 12pt, weight: "bold")[TECHNICAL SKILLS]
+#line(length: 100%, stroke: 0.5pt)
+#v(0.4em)
+
+#grid(
+  columns: (auto, 1fr),
+  row-gutter: 0.4em,
+  column-gutter: 0.5em,
+
+  [*Languages:*], [Golang, Rust, Python, TypeScript, Java, PHP],
+  [*Frameworks:*], [Echo, Fiber, Chi, Axum, FastAPI, Django, NestJS, Spring Boot],
+  [*APIs & Messaging:*], [REST, gRPC, GraphQL, Kafka, RabbitMQ, NATS],
+  [*Databases:*], [PostgreSQL, MySQL, Redis, MongoDB],
+  [*Data Access:*], [SQLC, SQLx, SeaQuery],
+  [*DevOps & Infra:*], [Docker, Kubernetes, GitHub Actions, NGINX],
+  [*Observability:*], [Prometheus, Grafana, Jaeger, OpenTelemetry],
+)
+
+#v(0.8em)
+#text(size: 12pt, weight: "bold")[EDUCATION]
+#line(length: 100%, stroke: 0.5pt)
+#v(0.5em)
+
+*Bachelor of Computer Science* #h(1fr) *2020 – 2024* \
+Universitas Nusa Mandiri — Jakarta, Indonesia \
+GPA: **3.72 / 4.00**
+
+#v(0.3em)
+*Final Project:* Prodigio ERP — Construction Management System
+- Built full-stack ERP using Laravel, React, and Tauri
+- Implemented inventory, project management, and financial reporting modules
+- Optimized database queries for large datasets
+
+#v(0.8em)
+#text(size: 12pt, weight: "bold")[EXPERIENCE]
+#line(length: 100%, stroke: 0.5pt)
+#v(0.5em)
+
+*Software Engineering Intern* #h(1fr) *Aug 2023 – Dec 2023* \
+Orbit Future Academy (MSIB Batch 5) — Remote
+
+- Developed REST APIs using Django and PostgreSQL
+- Built a basic product recommendation engine with sentiment analysis
+- Applied AI concepts in real-world web application scenarios
+
+#v(0.8em)
+#text(size: 12pt, weight: "bold")[PERSONAL PROJECTS]
+#line(length: 100%, stroke: 0.5pt)
+#v(0.5em)
+
+*Payment Gateway Platform (Modular Monolith)* — Golang #h(1fr) *2025* \
+Golang, Echo, gRPC, PostgreSQL, Redis, Kubernetes
+- Designed modular monolith architecture with clear bounded contexts
+- Implemented gRPC-based internal service communication
+- Integrated Prometheus, Grafana, and Jaeger for observability
+- Used SQLC for type-safe database access and Redis caching
+
+#v(0.5em)
+
+*E-Commerce Backend Platform* — Golang #h(1fr) *2025* \
+Golang, Echo, gRPC, PostgreSQL, Kubernetes
+- Built scalable backend services with domain-driven boundaries
+- Implemented distributed tracing and metrics collection
+- Optimized read-heavy workloads using Redis
+
+#v(0.5em)
+
+*Payment Gateway Platform* — Rust #h(1fr) *2025* \
+Rust, Axum, gRPC, SQLx, Docker
+- Focused on high-performance and safety-critical payment flows
+- Implemented retry and circuit breaker patterns
+- Leveraged Rust ownership and concurrency guarantees
+- Integrated Prometheus metrics and Jaeger tracing
+
+#v(0.5em)
+
+*Point of Sale (POS) Backend Platform* — Golang #h(1fr) *2025* \
+Golang, Echo, gRPC, PostgreSQL, Kubernetes
+- Designed backend services for transactional POS workloads
+- Applied observability-first system design
+- Deployed services using Docker and Kubernetes
+
+#v(0.8em)
+#text(size: 12pt, weight: "bold")[CERTIFICATIONS]
+#line(length: 100%, stroke: 0.5pt)
+#v(0.4em)
+
+- CCNA: Switching, Routing, and Wireless Essentials — Cisco (Jan 2023)
+- CCNA: Introduction to Networks — Cisco (Aug 2022)
+- Artificial Intelligence for Jobs Bootcamp — Orbit Future Academy (Aug 2023)

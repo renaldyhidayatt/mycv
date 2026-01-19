@@ -1,50 +1,119 @@
-# 📄 Renaldy Hidayat — My Cv
+# RENALDY HIDAYAT
 
-## 👋 Introduction
-I'm a Computer Science graduate from **Nusa Mandiri University**, passionate about programming and driven by endless opportunities for learning.
-Exploring new languages, leveraging frameworks, and applying technology innovatively excites me.
-I stay updated with the latest tech trends and integrate them into my work. My passion also extends to transforming hobbies into meaningful projects, merging creativity with technical expertise.
+**Backend Software Engineer**
 
----
-
-## 🎓 Education
-- **Nusa Mandiri University**
-  Bachelor of Computer Science — GPA: **3.72** (2020 - 2024)
-- **SMK Travina Prima**
-  Networking Engineer (2017 - 2019)
+📧 [renaldyhidayatt@gmail.com](mailto:renaldyhidayatt@gmail.com)
+📞 +62 888 9244 905
+🌐 [renaldyhidayatt.github.io](https://renaldyhidayatt.github.io)
+🔗 [linkedin.com/in/renaldyhidayatt](https://linkedin.com/in/renaldyhidayatt) | [github.com/renaldyhidayatt](https://github.com/renaldyhidayatt)
 
 ---
 
-## 💻 Technical Skills
-- **Programming Languages**: Python, Golang, Java, PHP, TypeScript, JavaScript
-- **Back End**: Django, FastAPI, Laravel, Nest.js, Express.js, Echo, Fiber, Chi, Spring Boot
-- **Messaging & Communication**: NATS, gRPC, RabbitMQ, Kafka
-- **Database**: PostgreSQL, MySQL, SQLite, Redis, MongoDB
-- **DevOps**: Linux, Docker, GitHub Actions, NGINX
+## ABOUT
+
+Backend Software Engineer specializing in Golang and Rust with hands-on experience building production-grade backend systems and distributed architectures. Strong focus on payment systems, e-commerce platforms, and ERP backends, with observability treated as a first-class concern. Experienced in cloud-native development, performance-oriented system design, and writing clean, maintainable, and testable code.
 
 ---
 
-## 🚀 Featured Portfolio
-- [**Digital Payment Platform**](https://renaldyhidayatt.github.io/#/portfolio/monolith-payment-gateway) — Payment gateway using Echo, gRPC, SQLC, PostgreSQL, Prometheus, Opentelemetry, Zap, Goose, Zookeeper, Nginx, Jaeger, Grafana, Redis, Docker, Docker Compose, and Kubernetes **(On Progress)**.
-- [**Ecommerce Platform**](https://renaldyhidayatt.github.io/#/portfolio/monolith-ecommerce) — Payment gateway using Echo, gRPC, SQLC, PostgreSQL, Prometheus, Opentelemetry, Zap, Goose, Zookeeper, Nginx, Jaeger, Grafana, Redis, Docker, Docker Compose, and Kubernetes **(On Progress)**.
-- [**Point Of Sale Platform**](https://renaldyhidayatt.github.io/#/portfolio/monolith-point-of-sale) — Payment gateway using Echo, gRPC, SQLC, PostgreSQL, Prometheus, Opentelemetry, Zap, Goose, Zookeeper, Nginx, Jaeger, Grafana, Redis, Docker, Docker Compose, and Kubernetes **(On Progress)**.
-- [**Monorepo Payment Gateway**](https://renaldyhidayatt.github.io/#/portfolio/monorepo-payment-gateway-axum) — Payment gateway using Axum, gRPC, SeaQuery, SQLx, PostgreSQL, Prometheus, Opentelemetry, Jaeger, Grafana, Redis, Docker, and Docker Compose **(Finished)**.
-- [**Django-React Recommendation Product**](https://renaldyhidayatt.github.io/#/portfolio/sistem-rekomendasi-ecommerce) — eCommerce system featuring a recommendation engine using sentiment analysis, built with Django, PostgreSQL, and React.js **(Finished)**.
-- [**Prodigio ERP**](https://renaldyhidayatt.github.io/#/portfolio/prodigio-erp-laravel) — ERP system for the construction industry, built with React, Ant Design, Tauri, Laravel, and PHP to optimize workflows **(Finished)**.
+## ENGINEERING HIGHLIGHTS
 
-📂 [**See my other portfolios here »**](https://renaldyhidayatt.github.io/#/portfolio)
+* Top 1% developer globally (500K+ developers) based on WakaTime 2025 coding activity
+* 1,488+ hours coded in 2025 (~5h 54m daily average)
+* Primary development environment: Linux + VS Code
+* Strong emphasis on system reliability, observability, and scalability
 
 ---
 
-## 📜 Certifications
-- **CCNA: Introduction to Networks** — Universitas Nusa Mandiri, 20 Aug 2022
-- **CCNA: Switching, Routing, and Wireless Essentials** — Universitas Nusa Mandiri, 20 Jan 2023
-- **Orbit Kampus — Artificial Intelligence 4 Jobs** — Orbit Future Academy (MSIB 5), 14 Aug 2023
+## TECHNICAL SKILLS
+
+**Languages:**
+Golang, Rust, Python, TypeScript, Java, PHP
+
+**Frameworks:**
+Echo, Fiber, Chi, Axum, FastAPI, Django, NestJS, Spring Boot
+
+**APIs & Messaging:**
+REST, gRPC, GraphQL, Kafka, RabbitMQ, NATS
+
+**Databases:**
+PostgreSQL, MySQL, Redis, MongoDB
+
+**Data Access:**
+SQLC, SQLx, SeaQuery
+
+**DevOps & Infra:**
+Docker, Kubernetes, GitHub Actions, NGINX
+
+**Observability:**
+Prometheus, Grafana, Jaeger, OpenTelemetry
 
 ---
 
-## 📬 Contact
-- **Email**: [renaldyhidayatt@gmail.com](mailto:renaldyhidayatt@gmail.com)
-- **Phone**: +62 888-9244-905
-- **LinkedIn**: [linkedin.com/in/renaldyhidayatt](https://www.linkedin.com/in/renaldyhidayatt)
-- **GitHub**: [github.com/renaldyhidayatt](https://github.com/renaldyhidayatt)
+## EDUCATION
+
+**Bachelor of Computer Science** (2020 – 2024)
+Universitas Nusa Mandiri — Jakarta, Indonesia
+GPA: **3.72 / 4.00**
+
+**Final Project:** *Prodigio ERP — Construction Management System*
+
+* Built full-stack ERP using Laravel, React, and Tauri
+* Implemented inventory, project management, and financial reporting modules
+* Optimized database queries for large datasets
+
+---
+
+## EXPERIENCE
+
+**Software Engineering Intern** (Aug 2023 – Dec 2023)
+Orbit Future Academy (MSIB Batch 5) — Remote
+
+* Developed REST APIs using Django and PostgreSQL
+* Built a basic product recommendation engine with sentiment analysis
+* Applied AI concepts in real-world web application scenarios
+
+---
+
+## PERSONAL PROJECTS
+
+### Payment Gateway Platform (Modular Monolith) — Golang (2025)
+
+**Tech Stack:** Golang, Echo, gRPC, PostgreSQL, Redis, Kubernetes
+
+* Designed modular monolith architecture with clear bounded contexts
+* Implemented gRPC-based internal service communication
+* Integrated Prometheus, Grafana, and Jaeger for observability
+* Used SQLC for type-safe database access and Redis caching
+
+### E-Commerce Backend Platform — Golang (2025)
+
+**Tech Stack:** Golang, Echo, gRPC, PostgreSQL, Kubernetes
+
+* Built scalable backend services with domain-driven boundaries
+* Implemented distributed tracing and metrics collection
+* Optimized read-heavy workloads using Redis
+
+### Payment Gateway Platform — Rust (2025)
+
+**Tech Stack:** Rust, Axum, gRPC, SQLx, Docker
+
+* Focused on high-performance and safety-critical payment flows
+* Implemented retry and circuit breaker patterns
+* Leveraged Rust ownership and concurrency guarantees
+* Integrated Prometheus metrics and Jaeger tracing
+
+### Point of Sale (POS) Backend Platform — Golang (2025)
+
+**Tech Stack:** Golang, Echo, gRPC, PostgreSQL, Kubernetes
+
+* Designed backend services for transactional POS workloads
+* Applied observability-first system design
+* Deployed services using Docker and Kubernetes
+
+---
+
+## CERTIFICATIONS
+
+* CCNA: Switching, Routing, and Wireless Essentials — Cisco (Jan 2023)
+* CCNA: Introduction to Networks — Cisco (Aug 2022)
+* Artificial Intelligence for Jobs Bootcamp — Orbit Future Academy (Aug 2023)
